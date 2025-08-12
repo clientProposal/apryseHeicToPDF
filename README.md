@@ -53,7 +53,7 @@ import com.pdftron.pdf.*;
 public class App {
     public static void main(String[] args) {
         try {
-            PDFNet.initialize("demo:1748871293548:61f2fbc003000000007b26bc3297c4a33f391304623c6b29c612d686cd");
+            PDFNet.initialize("xxxxx-your-key-here-xxxxxx");
             PDFDoc doc = new PDFDoc();
             doc.pageInsert(doc.getPageIterator(0), doc.pageCreate());
             System.out.println("Number of pages: " + doc.getPageCount());
