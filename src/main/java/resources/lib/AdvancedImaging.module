@@ -1,0 +1,27 @@
+{
+	"version":4,
+	"Linux": [
+		{"file":"libDE265.so"},
+		{"file":"libHEIF.so"},
+		{"file":"libRaw.so"},
+		{"file":"pdftronAdvancedImaging.so"},
+		{"file":"pdftronDicom1.so"},
+		{"file":"pdftronDicom2.so"}
+	]
+	"MacOS": [
+		{"file":"libDE265.dylib"},
+		{"file":"libHEIF.dylib"},
+		{"file":"libRaw.dylib"},
+		{"file":"pdftronAdvancedImaging.dylib"},
+		{"file":"pdftronDicom1.dylib"},
+		{"file":"pdftronDicom2.dylib"}
+	]
+	"Windows": [
+		{"file":"libDE265.dll"},
+		{"file":"libHEIF.dll"},
+		{"file":"libRaw.dll"},
+		{"file":"pdftronAdvancedImaging.dll"},
+		{"file":"pdftronDicom1.dll"},
+		{"file":"pdftronDicom2.dll"}
+	]
+}
