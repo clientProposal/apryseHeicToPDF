@@ -1,5 +1,7 @@
 __Quick Setup__
 
+Using VSC
+
 1. Cmd + shift + p
 2. Java: Create Java Project
 3. Maven
