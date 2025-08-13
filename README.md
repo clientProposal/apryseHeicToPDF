@@ -5,12 +5,11 @@ __Quick Setup__
 3. Maven
 4. maven-archetype-quickstart
 5. Version
-6. Group ID (edu.entry_point)
-7. Project name (tutorials)
-8. Follow through with folder "all_packages" and hit enter in terminal for presets
-9. Please use javac -version to check your java version and change maven.compiler.source and maven.compiler.target to match
-10. touch run.sh on the same level as the pom.xml
-11. echo "mvn clean package && java -cp target/classes edu.entry_point.App" > path/to/run.sh (change package/class)
+6. Group ID (com.poc)
+7. Project name (java_for_poc)
+8. Please use javac -version to check your java version and change maven.compiler.source and maven.compiler.target to match
+9. "touch run.sh" on the same level as the pom.xml
+11. echo "mvn clean compile exec:java -Dexec.mainClass="com.poc.App" > path/to/run.sh (change package/class)
 12.  chmod +x run.sh
 13. ./run.sh to try everything
 
@@ -86,3 +85,6 @@ Dotenv dotenv = Dotenv.configure()
 String token = dotenv.get("PDFTRON_KEY");
 
 ```
+
+18. Download the files seen in lib on this page, under Advanced Imaging Module:
+https://dev.apryse.com/
